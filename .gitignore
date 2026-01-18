@@ -1,0 +1,16 @@
+*.py[cod]
+*.swp
+.venv
+.idea
+.coverage
+.coverage.*
+test-reports/
+htmlcov
+.env
+.vscode/
+*.dump
+*.sql
+*.sqlite3
+staticfiles
+*.pyc
+media/
