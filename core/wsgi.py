@@ -1,5 +1,5 @@
 """
-WSGI config for toefl_simulator project.
+WSGI config for core project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -12,6 +12,6 @@ from django.core.wsgi import get_wsgi_application
 import os
 
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "toefl_simulator.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
 
 application = get_wsgi_application()
